@@ -42,15 +42,15 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 ![Naviagte to Amazon SageMaker](./images/2_1.png)
 
-![Naviagte to Amazon SageMaker](./images/2_2_1.png)
+![Naviagte to Amazon SageMaker](images/2_2.png)
 
-![Naviagte to Amazon SageMaker](./images/2_2.png)
+![Naviagte to Amazon SageMaker](images/2_3.png)
 
-![Naviagte to Amazon SageMaker](./images/2_3.png)
+![Naviagte to Amazon SageMaker](images/2_4.png)
 
-![Naviagte to Amazon SageMaker](./images/2_4.png)
+![Naviagte to Amazon SageMaker](images/2_5.png)
 
-![Naviagte to Amazon SageMaker](./images/2_5.png)
+![Naviagte to Amazon SageMaker](images/2_6.png)
 
 ### Step 3 : Create the Amazon SageMaker Ground Truth labeling job.
 
