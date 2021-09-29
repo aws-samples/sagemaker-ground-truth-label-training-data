@@ -21,10 +21,13 @@ Amazon SageMaker Ground Truth gives you access to different workforce options:
 
 For this tutorial, we use `Private` workforce with you as the labeling member to label our dataset label a dataset with images of brand logos. Let's get started.
 
-1. 
+1. Navigate to the Amazon SageMaker console by clicking typing SageMaker at the search bar as seen below. 
+
 ![Naviagte to Amazon SageMaker](./images/1_1.png)
 
-![Naviagte to Amazon SageMaker](./images/1_2.png)
+2. Click on the Ground Truth on the left pane.
+
+![Click Ground Truth](./images/1_2.png)
 
 ![Naviagte to Amazon SageMaker](./images/1_3.png)
 
@@ -61,6 +64,8 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 1. Create Sagemaker Ground Truth private workforce.
 2. Upload images file which needs to be labeled to S3 for company brand detection use case, this is more on object detection use case. (We will pre-populate this files, to event engine account so that customers do not want to download the re-upload to s3)
 3. Create the Amazon SageMaker Ground Truth labeling job.
+
+
 4. Involve in the data labelling process as a worker.
 5. Review labeling job results.
 6. Enrich the labelling job with automatic labelling and reduce the cost.
