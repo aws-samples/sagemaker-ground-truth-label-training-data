@@ -35,7 +35,7 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 4. Select the tab that reads private and select 'Create Private Team'
 ![Click on Create Private Team](./images/1_4.png)
 
-5. Select 'Create Private Team with AWS Cognito'. Enter details for Team Details and Email Addresses sections. 
+5. Select 'Create Private Team with AWS Cognito'. Enter details for 'Team Details' and 'Email Addresses' sections. 
 ![Enter details to Create Private Team](./images/1_5.png)
 
 6. Review the Summary
@@ -43,18 +43,23 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 
 ### Step 2 : Upload the labelling dataset 
+1. Using Service Locator, search for S3.
+![Locate S3](./images/2_1.png)
 
-![Naviagte to Amazon SageMaker](./images/2_1.png)
+2. Create a bucket.
+![Create a bucket](images/2_2.png)
 
-![Naviagte to Amazon SageMaker](images/2_2.png)
+3. Give the bucket a unique name.
+![Assign a unique name to the bucket](images/2_3.png)
 
-![Naviagte to Amazon SageMaker](images/2_3.png)
+4. Select option to 'Upload'.
+![Select option - Upload](images/2_4.png)
 
-![Naviagte to Amazon SageMaker](images/2_4.png)
+5. Select option to 'Add Folder'.
+![Select option - Add Folder](images/2_5.png)
 
-![Naviagte to Amazon SageMaker](images/2_5.png)
-
-![Naviagte to Amazon SageMaker](images/2_6.png)
+6. Review summary to ensure all images have been uploaded. Select 'Upload' at the bottom of the screen.
+![Select Option - Upload Images](images/2_6.png)
 
 ### Step 3 : Create the Amazon SageMaker Ground Truth labeling job.
 
