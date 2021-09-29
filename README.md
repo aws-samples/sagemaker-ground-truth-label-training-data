@@ -21,7 +21,7 @@ Amazon SageMaker Ground Truth gives you access to different workforce options:
 
 For this tutorial, we use `Private` workforce with you as the labeling member to label our dataset label a dataset with images of brand logos. Let's get started.
 
-
+1. 
 ![Naviagte to Amazon SageMaker](./images/1_1.png)
 
 ![Naviagte to Amazon SageMaker](./images/1_2.png)
@@ -34,6 +34,22 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 ![Naviagte to Amazon SageMaker](./images/1_6.png)
 
+
+### Step 2 : Upload the labelling dataset 
+
+![Naviagte to Amazon SageMaker](./images/2_1.png)
+
+![Naviagte to Amazon SageMaker](./images/2_2_1.png)
+
+![Naviagte to Amazon SageMaker](./images/1_2.png)
+
+![Naviagte to Amazon SageMaker](./images/1_3.png)
+
+![Naviagte to Amazon SageMaker](./images/1_4.png)
+
+![Naviagte to Amazon SageMaker](./images/1_5.png)
+
+### Step 3 : Create the Amazon SageMaker Ground Truth labeling job.
 
 
 
