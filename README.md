@@ -14,6 +14,29 @@ Setup Env
 
 Workshop
 
+
+### Step 0 : Login to event engine.
+## AWS Instructor-Led lab
+Go to: https://dashboard.eventengine.run/login. You will be redirected to the page
+below
+![Access Eventengine Dashboard](images/5_1.png)
+Enter the event hash you have received from your instructor
+![Enter the event hash](images/5_2.png)
+Click on Email One-Time Password (OTP)
+![Email One-Time Password](images/5_3.png)
+You are redirected to the following page:
+![](images/5_4.png)
+Enter your email address and click on Send passcode
+![Enter your email](images/5_5.png)
+You are redirected to the following page
+![Enter passcode](images/5_6.png)
+Check your mailbox, copy-paste the one-time password and click on Sign in.
+![Sign in](images/5_7.png)
+You are redirected to the Team Dashboard. Click on AWS Console.
+![Team Dashboard](images/5_8.png)
+Click “Open AWS Console”
+![Open AWS Console](images/5_9.png)
+
 ### Step 1 : Create Sagemaker Ground Truth Workforce
 
 Amazon SageMaker Ground Truth gives you access to different workforce options:
