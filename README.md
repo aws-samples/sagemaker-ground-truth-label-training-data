@@ -39,7 +39,7 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 ![Click on Create Private Team](./images/1_4.png)
 
-5. Select 'Create Private Team with AWS Cognito'. Enter details for 'Team Details' and 'Email Addresses' sections. 
+5. Select 'Create Private Team with AWS Cognito'. Enter details for 'Team Details' and 'Email Addresses' sections. Ensure that you have access to the email address you provide.
 
 ![Enter details to Create Private Team](./images/1_5.png)
 
