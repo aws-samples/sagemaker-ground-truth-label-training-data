@@ -48,7 +48,31 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 ![Summary](./images/1_6.png)
 
 
-### Step 2 : Upload the labelling dataset 
+### Step 2 : Navigate to the SageMaker Studio
+<TODO>
+
+### Step 3 : Download the notebook code
+<TODO>
+
+### Step 4 : Upload images using notebook
+<TODO>
+
+### Step 5 : Create Labelling job using notebook
+<TODO>
+
+(Verify from the UI : Labelling job is created.)
+
+
+
+
+
+
+
+
+
+
+
+
 1. Using Service Locator, search for S3.
 
 ![Locate S3](./images/2_1.png)
