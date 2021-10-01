@@ -1,4 +1,6 @@
-# Easily label training data for machine learning at scale (<TBD add the event title>) 
+# Easily label training data for machine learning at scale (AIM-406) 
+Summary 
+In this session you will learn how to create high-quality labels while also reducing your data labeling costs by up to 70 percent. This session walks through the different workflow options in Amazon SageMaker Ground Truth, such as automatic labeling and assistive labeling features like auto segmentation and Image label verification. We will walk you through how to build highly accurate training dataset for company brand/logo so you can build a ML model for company brand protection.
 
 Table of Content 
 <TODO>
