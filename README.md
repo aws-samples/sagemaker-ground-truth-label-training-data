@@ -57,7 +57,7 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 ![Create a bucket](images/2_2.png)
 
-3. Give the bucket a unique name.
+3. Give the bucket a unique name and ensure that it is in the same region where the Ground Truth was created. 
 
 ![Assign a unique name to the bucket](images/2_3.png)
 
