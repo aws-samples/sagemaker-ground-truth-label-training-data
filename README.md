@@ -49,18 +49,23 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 
 ### Step 2 : Navigate to the SageMaker Studio
-<TODO>
+Navigate to AWS Console and using service locator search for Sagemaker Studio.
+Next, Click on Create Sagemaker Studio.
+You should already see a user - "sagemakeruser" created for you.
+Once you select this user, you will be directed to Launcher screen.
+Within Notebook and Compute Resources section, select a python 3 Notebook as show below.
+![Navigate to Sagemaker Studio](./images/4_1.png)
 
 ### Step 3 : Download the notebook code
-<TODO>
+TODO
 
 ### Step 4 : Upload images using notebook
-<TODO>
+TODO
 
 ### Step 5 : Create Labelling job using notebook
-<TODO>
+TODO
 
-(Verify from the UI : Labelling job is created.)
+Verify from the UI : Labelling job is created.
 
 
 
