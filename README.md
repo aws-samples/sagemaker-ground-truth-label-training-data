@@ -66,40 +66,13 @@ For this tutorial, we use `Private` workforce with you as the labeling member to
 
 ![Enter details to Create Private Team](./images/1_5.png)
 
-6. Review the Summary
+6. Review the Summary.
+
+Copy the ARN listed below. (This will be used later.)
 
 ![Summary](./images/1_6.png)
 
-
-### Step 2 : Navigate to the SageMaker Studio
-Navigate to AWS Console and using service locator search for Sagemaker Studio.
-Next, Click on Create Sagemaker Studio.
-You should already see a user - "sagemakeruser" created for you.
-Once you select this user, you will be directed to Launcher screen.
-Within Notebook and Compute Resources section, select a python 3 Notebook as show below.
-![Navigate to Sagemaker Studio](./images/4_1.png)
-
-### Step 3 : Download the notebook code
-TODO
-
-### Step 4 : Upload images using notebook
-TODO
-
-### Step 5 : Create Labelling job using notebook
-TODO
-
-Verify from the UI : Labelling job is created.
-
-
-
-
-
-
-
-
-
-
-
+### Step 2 : Create S3 bucket to hold the labelling data.
 
 1. Using Service Locator, search for S3.
 
@@ -113,17 +86,68 @@ Verify from the UI : Labelling job is created.
 
 ![Assign a unique name to the bucket](images/2_3.png)
 
-4. Select option to 'Upload'.
+Copy name of the S3 bucket. (This will be used later.)
 
-![Select option - Upload](images/2_4.png)
+### Step 3 : Navigate to the SageMaker Studio
 
-5. Select option to 'Add Folder'.
+Navigate to AWS Console and using service locator search for Sagemaker Studio.
+Next, Click on Create Sagemaker Studio.
+You should already see a user - "sagemakeruser" created for you.
+Once you select this user, you will be directed to Launcher screen.
+Within Notebook and Compute Resources section, select a python 3 Notebook as show below.
+![Navigate to Sagemaker Studio](./images/4_1.png)
 
-![Select option - Add Folder](images/2_5.png)
+### Step 4 : Download the notebook code
+![Open Terminal](./images/6_1.png)
 
-6. Review summary to ensure all images have been uploaded. Select 'Upload' at the bottom of the screen.
+![Git clone](./images/6_2.png)
 
-![Select Option - Upload Images](images/2_6.png)
+![Cloned](./images/6_3.png)
+
+![Open Notebook](./images/6_4.png)
+
+### Step 5 : Notebook execution.
+
+Change the following cell with the values copied in step 1 & step 2 above.
+
+![Change](./images/6_5.png)
+
+Follow the intructions and execute all the cells in the notebook.
+
+
+### Step 6 : Verify the labelling job creation
+
+1. Navigate to the Sagemaker console via service locator.
+
+![SM service](./images/7_1.png)
+
+2. Click on the "Ground Truth" and "Labelling Jobs". 
+
+![Labelling Jobs](./images/7_2.png)
+
+3. You can see a labelling job with "inprogress" status. Click on the job name.
+![Labelling Jobs](./images/7_3.png)
+
+4. You could see the more details about the job that we created.
+![Labelling Jobs More](./images/7_4.png)
+
+
+### Step 7 : Start the labelling process.
+
+1. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Step 3 : Create the Amazon SageMaker Ground Truth labeling job.
 
