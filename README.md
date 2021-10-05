@@ -72,6 +72,12 @@ Copy the ARN listed below. (This will be used later.)
 
 ![Summary](./images/1_6.png)
 
+7. You should have received a confirmation email to the address provided on step 5 above. Example would look like below.
+
+![Email](./images/1_7.png)
+
+Use this username and password when logging into the lbelling app in step 7 later.
+
 ### Step 2 : Create S3 bucket to hold the labelling data.
 
 1. Using Service Locator, search for S3.
@@ -134,38 +140,30 @@ Follow the intructions and execute all the cells in the notebook.
 
 ### Step 7 : Start the labelling process.
 
-1. 
+1. Go back to the "Private workforce summary" located at Ground Truth -> Labeling Workforce -> Private. Then click on the "Labeling portal sign-in URL"
+
+![Labelling Jobs More](./images/8_1.png)
+
+This will open the labeling application on another tab of the browser.
+
+2. Login using the credentials sent to the email. (Change the password in the first time login.)
+
+![Labelling Jobs More](./images/8_2.png)
+
+![Login](./images/8_3.png)
+
+3. Click on the "Start Working" to start the labeling job.
+
+![Start Working](./images/8_4.png)
+
+4. In the labeling window, Select the appropriate label and then draw the bounding box containing the logo. Please see the example below.
+
+![Label Job](./images/8_5.png)
+
+5. Continue the process until all the images are completed. 
 
 
+### Step 8 : Verify results
 
+<TBD>
 
-
-
-
-
-
-
-
-
-
-
-### Step 3 : Create the Amazon SageMaker Ground Truth labeling job.
-
-
-
-
-
-
-
-
-1. Create Sagemaker Ground Truth private workforce.
-2. Upload images file which needs to be labeled to S3 for company brand detection use case, this is more on object detection use case. (We will pre-populate this files, to event engine account so that customers do not want to download the re-upload to s3)
-3. Create the Amazon SageMaker Ground Truth labeling job.
-
-
-4. Involve in the data labelling process as a worker.
-5. Review labeling job results.
-6. Enrich the labelling job with automatic labelling and reduce the cost.
-7. Future Extensions (Example blogs, references etc)
-
-Test
