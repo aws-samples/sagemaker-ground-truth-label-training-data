@@ -200,5 +200,14 @@ This will open the application on a new browser tab.
 
 ### Step 8 : Verify results
 
-<TBD>
+1. Using the Service Locator, navigate to S3 bucket that you captured in Step 2.3. Within it, look for a folder with prefix you used in Step 5. Drill through the folder structure as shown below.
 
+![Label Job](./images/9_1.png)
+
+2. You should be able to find multiple folders with json files within them as shown below.
+
+![Label Job](./images/9_2.png)
+
+3. Download the json file and inspect the contents.
+
+![Label Job](./images/9_3.png)
