@@ -197,8 +197,14 @@ This will open the application on a new browser tab.
 
 5. Continue the process until all the images are completed. 
 
+6. You just finished labeling your first batch of images. GroundTruch will now use this set to train a model for auto-labeling. It will then attempt to label the rest of the images using this model. The auto-labeled images with high degress of confidence will be considered "done" (labeled). A sub-set of images with low degree of confidence will be dispatched to you for another round of labeling, after which Ground Truth will re-attempt to auto-label again. 
 
-### Step 8 : Verify results
+![AutoLabeling](./images/auto_labeling.png)
+
+Since the set we labeled was very small, it is safe to assume that Ground Truth built model will NOT have high degree of confidence labeling the rest of the images. If you keep refreshing the labeling queue (in the labeleing workforce UI), in about 5 mins or so you will see another batch being dispatched to you for labeling.
+
+
+## Step 8 : Verify results
 
 1. Using the Service Locator, navigate to S3 bucket that you captured in Step 2.3. Within it, look for a folder with prefix you used in Step 5. Drill through the folder structure as shown below.
 
@@ -211,3 +217,13 @@ This will open the application on a new browser tab.
 3. Download the json file and inspect the contents.
 
 ![Label Job](./images/9_3.png)
+
+## Step 9 : Automatic labeling
+
+1. It takes few hundreds of labeled images for Ground Truth to train a model which can label the rest of them with relatively high degree of confidence. To illustrate the accuracy of Ground Truth automatic labeling, we pre-processed a different batch of 1000 pictures ahead of time and here is the breakdown of human vs automatic labeling stats:
+
+![AutoLabe](./images/auto_labeling_performance.png)
+
+2. If we inspect output manifest of a completed auto-labeling job, we can see which images were labeled by humans vs automatically:
+
+![AutoLabe](./images/auto_labeling_outmanifest.png)
