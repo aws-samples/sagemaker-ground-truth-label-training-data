@@ -17,6 +17,13 @@ In this builder session you will explore how to use Amazon Sagemaker Ground Trut
 ### Architecture
 ![Architecture](images/10_1.png)
 
+1. Using the Labeling workforces page of the Amazon SageMaker Ground Truth, create Private workforce labelers.
+2. Upload unlabeled logo Images dataset to S3 Bucket.
+3. From Sagemaker Studio notebook, create labeling job using private workforce created in step1.
+4. Open labeling portal through sign in URL and start labeling process with Assistive labeling.
+5. Labeled output json data is stored in S3 bucket.
+6. Ground Truth will use the output data to train a model for auto-labeling. It will attempt to label the rest of the unlabeled images using the model it created. The auto-labeled images with high confidence will be considered "done" (labeled) and stored on S3. Any images with low degree of confidence will be dispatched to the private workforce for another round of labeling. Labeled data is used to continually train the model periodically.
+
 ## Pre-requisites:
 
 ### Login to event engine
