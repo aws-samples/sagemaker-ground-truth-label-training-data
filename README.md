@@ -239,3 +239,7 @@ Since the set we labeled was very small, it is safe to assume that Ground Truth 
 2. If we inspect output manifest of a completed auto-labeling job, we can see which images were labeled by humans vs automatically:
 
 ![AutoLabe](./images/auto_labeling_outmanifest.png)
+
+### Additional Resources
+
+* Building your own brand detection and visibility using Amazon SageMaker Ground Truth and Amazon Rekognition Custom Labels : https://aws.amazon.com/blogs/machine-learning/part-1-end-to-end-solution-building-your-own-brand-detection-and-visibility-using-amazon-sagemaker-ground-truth-and-amazon-rekognition-custom-labels/
