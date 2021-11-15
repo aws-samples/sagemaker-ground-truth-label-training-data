@@ -146,7 +146,7 @@ Copy your bucket name into your notepad. We will use it in our Sagemaker noteboo
 
 ![Open Terminal](./images/6_1.png)
 
-2. In Terminal type git clone <(url)>
+2. In Terminal type git clone https://github.com/aws-samples/sagemaker-ground-truth-label-training-data.git
 
 ![Git clone](./images/6_2.png)
 
