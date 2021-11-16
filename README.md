@@ -28,7 +28,7 @@ In this builder session you will explore how to use Amazon Sagemaker Ground Trut
 
 ### Login to event engine
 
-- Go to: <a href="https://dashboard.eventengine.run/login" target="_blank">https://dashboard.eventengine.run/login</a>. You will be redirected to the page below
+- Go to: <a href="https://dashboard.eventengine.run/login" target="_blank">this link</a>. You will be redirected to the page below
 
 ![Access Eventengine Dashboard](images/5_1.png)
 
