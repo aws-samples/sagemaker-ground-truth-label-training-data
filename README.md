@@ -7,7 +7,7 @@ In this builder session you will explore how to use Amazon Sagemaker Ground Trut
 
 ### Workshop Details
 1. Create Sagemaker Ground Truth private workforce.
-2. Create S3 bucket to upload Brand logo images. (Source: https://www.kaggle.com/momotabanerjee/brand-logo-recognition-dataset, Owner: Udit Sethia)
+2. Create S3 bucket to upload Brand logo images. (`Source: https://www.kaggle.com/momotabanerjee/brand-logo-recognition-dataset, Owner: Udit Sethia`)
 3. Navigate to Sagemaker studio notebook and download the notebook code. 
 4. Execute the notebook code. 
 5. Create and verify the labelling job 
