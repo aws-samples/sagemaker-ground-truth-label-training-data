@@ -230,7 +230,7 @@ Since the set we labeled was very small, it is safe to assume that Ground Truth 
 
 ![Label Job](./images/9_3.png)
 
-4. Once the job is completed final manifest fill will be located in following location. This can be used for downstream machine learning application. (More information at additional resources section)
+4. Once the job is fully completed final manifest fill will be located in the folder with following prefix. This can be used for downstream machine learning application. (More information at additional resources section)
 
 ![Label Job](./images/9_4.png)
 
