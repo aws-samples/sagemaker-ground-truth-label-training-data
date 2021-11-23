@@ -247,3 +247,5 @@ Since the set we labeled was very small, it is safe to assume that Ground Truth 
 ### Additional Resources
 
 * Building your own brand detection and visibility using Amazon SageMaker Ground Truth and Amazon Rekognition Custom Labels : https://aws.amazon.com/blogs/machine-learning/part-1-end-to-end-solution-building-your-own-brand-detection-and-visibility-using-amazon-sagemaker-ground-truth-and-amazon-rekognition-custom-labels/
+
+* Amazon SageMaker Ground Truth – Build Highly Accurate Datasets and Reduce Labeling Costs by up to 70% : https://aws.amazon.com/blogs/machine-learning/annotate-data-for-less-with-amazon-sagemaker-ground-truth-and-automated-data-labeling/
