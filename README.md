@@ -230,6 +230,10 @@ Since the set we labeled was very small, it is safe to assume that Ground Truth 
 
 ![Label Job](./images/9_3.png)
 
+4. Once the job is completed final manifest fill will be located in following location. This can be used for downstream machine learning application. (More information at additional resources section)
+
+![Label Job](./images/9_4.png)
+
 ## Step 9 : Automatic labeling
 
 1. It takes few hundreds of labeled images for Ground Truth to train a model which can label the rest of them with relatively high degree of confidence. To illustrate the accuracy of Ground Truth automatic labeling, we pre-processed a different batch of 1000 pictures ahead of time and here is the breakdown of human vs automatic labeling stats:
