@@ -209,7 +209,7 @@ This will open the application on a new browser tab.
 
 5. Continue the process until all the images are completed. 
 
-6. You just finished labeling your first batch of images. GroundTruch will now use this set to train a model for auto-labeling. It will then attempt to label the rest of the images using this model. The auto-labeled images with high degress of confidence will be considered "done" (labeled). A sub-set of images with low degree of confidence will be dispatched to you for another round of labeling, after which Ground Truth will re-attempt to auto-label again. 
+6. You just finished labeling your first batch of images. GroundTruth will now use this set to train a model for auto-labeling. It will then attempt to label the rest of the images using this model. The auto-labeled images with high degress of confidence will be considered "done" (labeled). A sub-set of images with low degree of confidence will be dispatched to you for another round of labeling, after which Ground Truth will re-attempt to auto-label again. 
 
 ![AutoLabeling](./images/auto_labeling.png)
 
